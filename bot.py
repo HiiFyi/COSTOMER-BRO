@@ -27,7 +27,6 @@ from typing import Union, Optional, AsyncGenerator
 from Script import script 
 from datetime import date, datetime 
 from aiohttp import web
-from plugins import web_server
 
 from TechVJ.bot import TechVJBot
 from TechVJ.util.keepalive import ping_server
